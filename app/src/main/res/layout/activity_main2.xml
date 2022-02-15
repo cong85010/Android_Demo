@@ -66,23 +66,26 @@
         android:id="@+id/imageView4"
         android:layout_width="59dp"
         android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:srcCompat="@drawable/layer_x0020_1"
-        tools:layout_editor_absoluteY="515dp" />
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress"
+        app:srcCompat="@drawable/layer_x0020_1" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="333dp"
         android:layout_height="61dp"
+        android:layout_marginTop="32dp"
         android:text="Button"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="#FFC107"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        tools:layout_editor_absoluteY="600dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
